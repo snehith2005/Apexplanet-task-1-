@@ -1,0 +1,14 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.one{
+    font-weight: lighter;
+}
+
+#two{
+    line-height: 20px;
+}
+.image{
+    height: 200px;
+}
+

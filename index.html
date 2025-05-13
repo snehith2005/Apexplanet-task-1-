@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basics of html</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <h1 class="one">hello</h1>
+    <h2 id="two">hello</h2>
+    <h3 >hello</h3>
+    <p>hello iam new to html</p>
+    <p>hello iam snehith</p>
+    <img  class="image" src="https://imgs.search.brave.com/86MmgTAWZ71ZNYFM8vPexg3ftij_ATlBd4IwZMBN1WI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/bWFydmVsLmNvbS9j/b250ZW50LzF4L2F2/ZW5nZXJzZW5kZ2Ft/ZV9sb2JfY3JkXzA1/LmpwZw" alt="default image" />
+    <br>
+    <a href="https://imgs.search.brave.com/1c_0IuGZGV8MR_vArI8lQoK6ScSosRZRJgi77C5azzY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1Qk9EQmhZVGcx/TkdRdE5HVm1OUzAw/WlRkaUxUaGpZVFl0/WkRGa056UmlOVFpt/TkRaalhrRXlYa0Zx/Y0djQC5qcGc">image</a>
+    <br>
+    <button class="btn">submit</button>
+    <script>
+        let body=document.querySelector("body")
+        let btn=document.querySelector(".btn")
+        let h1=document.querySelector(".one")
+        let p=document.createElement("p")
+        btn.addEventListener("click",()=>{
+           alert("alerted")
+        })
+        btn.style.color="red"
+        h1.style.fontWeight="bold"
+        p.innerText="iam iron man"
+        body.appendChild(p)
+       
+    </script>
+</body>
+</html>
